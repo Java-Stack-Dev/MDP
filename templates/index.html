@@ -7,18 +7,14 @@
   <link rel="shortcut icon" href="https://r.mobirisesite.com/1397870/assets/images/photo-1591322128797-1137c2e39804.jpeg" type="image/x-icon">
   <meta name="description" content="Empathetic AI assistant with voice and text support in English, Telugu, and Hindi.">
   <title>MDP Assistant - Your Empathetic Companion</title>
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/web/assets/mobirise-icons2/mobirise2.css?rnd=1744563336787">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/bootstrap/css/bootstrap.min.css?rnd=1744563336788">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/bootstrap/css/bootstrap-grid.min.css?rnd=1744563336788">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/bootstrap/css/bootstrap-reboot.min.css?rnd=1744563336788">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/parallax/jarallax.css?rnd=1744563336788">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/dropdown/css/style.css?rnd=1744563336788">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/socicon/css/styles.css?rnd=1744563336788">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/theme/css/style.css?rnd=1744563336788">
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/recaptcha.css?rnd=1744563336788">
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap&display=swap"></noscript>
-  <link rel="stylesheet" href="https://r.mobirisesite.com/1397870/assets/css/mbr-additional.css?rnd=1744563336788" type="text/css">
+  <!-- Bootstrap (your link, adjust if local) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <!-- Minimal Mobirise Styles -->
+  <link rel="stylesheet" href="/static/theme.css">
+  <link rel="stylesheet" href="/static/mbr-additional.css">
+  <!-- Google Fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap">
+  <!-- Custom Styles -->
   <style>
     .chat-container { max-width: 600px; margin: 40px auto; padding: 20px; background: linear-gradient(135deg, #f5f7fa, #c3cfe2); border-radius: 10px; }
     .chat-area { height: 300px; overflow-y: auto; background: white; padding: 15px; border-radius: 8px; margin-bottom: 20px; }
@@ -33,54 +29,37 @@
   </style>
 </head>
 <body>
-  <section class="menu menu2 cid-uIgEQ5Q1fi" once="menu" id="menu-5-uIgEQ5Q1fi">
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+  <section class="menu menu2" id="menu">
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container">
-        <div class="navbar-brand">
-          <span class="navbar-logo">
-            <a href="#">
-              <img src="https://r.mobirisesite.com/1397870/assets/images/photo-1591322128797-1137c2e39804.jpeg" alt="MDP Logo" style="height: 4.3rem;">
-            </a>
-          </span>
-          <span class="navbar-caption-wrap"><a class="navbar-caption text-black display-4" href="#">MDP Assistant</a></span>
-        </div>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <div class="hamburger">
-            <span></span><span></span><span></span><span></span>
-          </div>
+        <a class="navbar-brand" href="#">
+          <img src="https://r.mobirisesite.com/1397870/assets/images/photo-1591322128797-1137c2e39804.jpeg" alt="MDP Logo" style="height: 4.3rem;">
+          MDP Assistant
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
-            <li class="nav-item"><a class="nav-link link text-black display-4" href="#">Home</a></li>
-            <li class="nav-item"><a class="nav-link link text-black display-4" href="#">Features</a></li>
-            <li class="nav-item"><a class="nav-link link text-black display-4" href="#">Contact</a></li>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
           </ul>
-          <div class="navbar-buttons mbr-section-btn">
-            <a class="btn btn-primary display-4" href="#">Try Now</a>
-          </div>
+          <a class="btn btn-primary ms-3" href="#chat-section">Try Now</a>
         </div>
       </div>
     </nav>
   </section>
 
-  <section class="header18 cid-uIgEQ5SkGo mbr-fullscreen" id="hero-16-uIgEQ5SkGo">
-    <div class="mbr-overlay" style="opacity: 0.5; background-color: rgb(0, 0, 0);"></div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="content-wrap col-12 col-md-12">
-          <h1 class="mbr-section-title mbr-fonts-style mbr-white mb-4 display-1">
-            <strong>MDP Assistant</strong>
-          </h1>
-          <p class="mbr-fonts-style mbr-text mbr-white mb-4 display-7">Your empathetic companion for mental support, tasks, and journaling in English, Telugu, and Hindi.</p>
-          <div class="mbr-section-btn">
-            <a class="btn btn-white-outline display-7" href="#chat-section">Try MDP</a>
-          </div>
-        </div>
-      </div>
+  <section class="hero py-5" id="hero">
+    <div class="container text-center">
+      <h1 class="display-1 text-white mb-4">MDP Assistant</h1>
+      <p class="lead text-white mb-4">Your empathetic companion for mental support, tasks, and journaling in English, Telugu, and Hindi.</p>
+      <a class="btn btn-outline-light" href="#chat-section">Try MDP</a>
     </div>
   </section>
 
-  <section class="chat-section" id="chat-section">
+  <section class="chat-section py-5" id="chat-section">
     <div class="container">
       <div class="chat-container">
         <div class="chat-area" id="chat-area"></div>
@@ -94,29 +73,19 @@
     </div>
   </section>
 
-  <section class="grid-section">
+  <section class="grid-section py-5">
     <div class="grid-buttons">
       <a href="#" class="btn-custom">Try API (Coming Soon)</a>
       <a href="https://github.com/Java-Stack-Dev/MDP" class="btn-custom">Contribute</a>
     </div>
   </section>
 
-  <section class="footer4 cid-uIgEQ5ZpT8" once="footers" id="footer-4-uIgEQ5ZpT8">
-    <div class="container">
-      <div class="media-container-row align-center mbr-white">
-        <div class="col-12">
-          <p class="mbr-text mb-0 mbr-fonts-style display-7">© 2025 Sai Tarun. All rights reserved.</p>
-        </div>
-      </div>
-    </div>
+  <section class="footer py-3 bg-dark text-white text-center">
+    <p>© 2025 Sai Tarun. All rights reserved.</p>
   </section>
 
-  <script src="https://r.mobirisesite.com/1397870/assets/web/assets/jquery/jquery.min.js?rnd=1744563336788"></script>
-  <script src="https://r.mobirisesite.com/1397870/assets/bootstrap/js/bootstrap.bundle.min.js?rnd=1744563336788"></script>
-  <script src="https://r.mobirisesite.com/1397870/assets/parallax/jarallax.js?rnd=1744563336788"></script>
-  <script src="https://r.mobirisesite.com/1397870/assets/smoothscroll/smooth-scroll.js?rnd=1744563336788"></script>
-  <script src="https://r.mobirisesite.com/1397870/assets/dropdown/js/navbar-dropdown.js?rnd=1744563336788"></script>
-  <script src="https://r.mobirisesite.com/1397870/assets/theme/js/script.js?rnd=1744563336788"></script>
+  <script src="/static/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <script>
     function sendMessage() {
       const input = document.getElementById('user-input').value.trim();
