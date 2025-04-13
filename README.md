@@ -104,3 +104,98 @@ Follow these steps to set up the assistant on your system:
    bash
    git clone <your-repo-url>
    cd empathetic-assistant
+
+2. Install Dependencies:
+   bash
+   pip install -r requirements.txt
+   
+
+   Note: On Windows, if `PyAudio` fails, try:
+   bash
+   pip install pipwin
+   pipwin install pyaudio
+   
+
+3. Verify Setup:
+   Ensure your microphone is connected and speakers are on.
+
+4. Run the Program:
+   bash
+   python llmchatbot.py
+   
+
+## Usage
+
+1. Start the Chatbot:
+   Run `python llmchatbot.py`. The assistant will greet you:
+   
+   Hey! I’m your friend here to help. What’s your name?
+   
+
+2. Set Names:
+   - Enter your name (e.g., “Sai”).
+   - Choose a name for the assistant (e.g., “Issabela,” “Amigo,” or anything you like).
+
+3. Interact:
+   - Voice Input: Speak clearly when prompted (“[Listening... Speak now!]”).
+   - Text Input: Type if voice fails (“[No voice detected. Type instead?]”).
+     Example commands:
+     - “I’m feeling great” → “Awesome vibes! What’s the highlight?”
+     - “nenu bagaledu” (Telugu: “I’m not okay”) → “Nīvu bādhapadutunnāvu ani cūsi badha vēstundi. Emi jarigindi?”
+     - “remind me to call mom at 2 PM” → “Got it, I’ll remind you to call mom at 14:00!”
+     - “switch to Telugu language” → “Switched to Telugu for you!”
+
+4. Exit:
+   Say or type “bye” to end:
+   
+   Take care, <your_name>! I’m here whenever you need me.
+   
+
+5. Check Outputs:
+   - `user_profile.json`: Stores your preferences, assistant name, and reminders.
+   - `digital_diary.txt`: Logs chats, e.g.:
+     
+     [2025-04-04 02:00] sai: unhappy | Mood: negative | Topic:  | <assistant_name>: I’m sorry you’re feeling down. What’s going on?
+     [2025-04-04 02:01] sai: notsleep now | Mood: negative | Topic: sleep | <assistant_name>: Not sleeping well, huh? Maybe a quick rest could help?
+     
+
+## File Structure
+
+
+MDP/
+├── .gitignore             # Ignores generated files
+├── llmchatbot.py          # Main chatbot script
+├── README.md              # Project documentation
+├── requirements.txt       # Lists dependencies
+
+
+Generated Files (not tracked):
+- `user_profile.json` - Stores user data (created on first run).
+- `digital_diary.txt` - Logs conversations (created during use).
+- `output.mp3` - Temporary audio file (deleted after playback).
+
+## Future Enhancements
+
+The assistant’s got big potential! Planned upgrades include:
+- Advanced NLP: Integrate a lightweight LLM for more natural responses.
+- Offline Mode: Support offline STT/TTS with Vosk or Coqui.
+- Deep Multilingualism: Custom Telugu/Hindi emotion models for better cultural fit.
+- Smart Reminders: Full calendar integration and recurring tasks.
+- Mood Insights: Analyze diary entries for emotional trends.
+- UI: Add a simple GUI for non-voice users.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+1. Fork the repo.
+2. Create a branch (`git checkout -b feature/your-idea`).
+3. Commit changes (`git commit -m "Add your idea"`).
+4. Push (`git push origin feature/your-idea`).
+5. Open a pull request.
+
+Please ensure code aligns with the project’s moral and empathetic goals.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+Built with ❤️ by Sai Tarun. Name your assistant and let it be your friend in tough times and good!
