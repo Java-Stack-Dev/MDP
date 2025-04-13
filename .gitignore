@@ -1,4 +1,4 @@
- # Generated files
+# Generated files
 user_profile.json
 digital_diary.txt
 output.mp3
@@ -12,6 +12,10 @@ __pycache__/
 env/
 venv/
 ENV/
+build/
+dist/
+*.egg-info/
+.pip_cache/
 
 # System files
 .DS_Store
@@ -22,3 +26,12 @@ Thumbs.db
 .idea/
 *.sublime-project
 *.sublime-workspace
+
+# Logs and cache
+*.log
+.cache/
+
+# Testing and coverage
+.coverage
+coverage.xml
+*.cover
