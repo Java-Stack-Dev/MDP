@@ -4,3 +4,4 @@ pygame==2.6.1
 textblob==0.18.0.post0
 python-dateutil==2.9.0.post0
 pyaudio==0.2.14
+flask

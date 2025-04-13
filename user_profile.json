@@ -137,6 +137,90 @@
             "emotion": "neutral",
             "response": "Take care, sai! I\u2019m here whenever you need me.",
             "topic": ""
+        },
+        {
+            "date": "2025-04-13 15:11",
+            "user_input": "I am feeling good",
+            "emotion": "positive",
+            "response": "That\u2019s fantastic! What\u2019s driving that happiness?",
+            "topic": ""
+        },
+        {
+            "date": "2025-04-13 15:12",
+            "user_input": "I just had my favourite food",
+            "emotion": "neutral",
+            "response": "Still on food? What\u2019s next for you?",
+            "topic": "food"
+        },
+        {
+            "date": "2025-04-13 15:12",
+            "user_input": "will be playing cricket next",
+            "emotion": "neutral",
+            "response": "Still on food? What\u2019s next for you?",
+            "topic": "food"
+        },
+        {
+            "date": "2025-04-13 15:12",
+            "user_input": "we sleep",
+            "emotion": "negative",
+            "response": "Not sleeping well, huh? What\u2019s keeping you up?",
+            "topic": "sleep"
+        },
+        {
+            "date": "2025-04-13 15:12",
+            "user_input": "maybe sleep",
+            "emotion": "negative",
+            "response": "Not sleeping well, huh? What\u2019s keeping you up?",
+            "topic": "sleep"
+        },
+        {
+            "date": "2025-04-13 15:12",
+            "user_input": "nothing",
+            "emotion": "negative",
+            "response": "Sounds like something\u2019s bothering you. Want to talk it out?",
+            "topic": ""
+        },
+        {
+            "date": "2025-04-13 15:12",
+            "user_input": "no I am good",
+            "emotion": "positive",
+            "response": "That\u2019s fantastic! What\u2019s driving that happiness?",
+            "topic": ""
+        },
+        {
+            "date": "2025-04-13 15:12",
+            "user_input": "just some good time",
+            "emotion": "positive",
+            "response": "Awesome vibes! What\u2019s the highlight of your day?",
+            "topic": ""
+        },
+        {
+            "date": "2025-04-13 15:13",
+            "user_input": "had a good conversation with",
+            "emotion": "positive",
+            "response": "Love that vibe! What sparked that convo?",
+            "topic": "conversation"
+        },
+        {
+            "date": "2025-04-13 15:13",
+            "user_input": "a joke",
+            "emotion": "neutral",
+            "response": "Short and sweet, huh? What\u2019s on your mind?",
+            "topic": "jokes"
+        },
+        {
+            "date": "2025-04-13 15:13",
+            "user_input": "nothing El",
+            "emotion": "negative",
+            "response": "Sounds like something\u2019s bothering you. Want to talk it out?",
+            "topic": ""
+        },
+        {
+            "date": "2025-04-13 15:13",
+            "user_input": "bye",
+            "emotion": "neutral",
+            "response": "Take care, sai! I\u2019m here whenever you need me.",
+            "topic": ""
         }
     ],
     "last_topic": ""
